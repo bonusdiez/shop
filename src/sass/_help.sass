@@ -1,0 +1,121 @@
+.help
+  // background: url('../img/help/help-bg.jpg') no-repeat center
+  // background-position-x: 50%
+  background-size: cover
+  height: 100%
+  position: relative
+  z-index: 5
+  padding: 100px 0 120px 0
+  &-header
+    padding: 0
+    width: 100%
+    color: #1b2562
+    font-family: "Bebas Bold"
+    font-size: 56px
+    letter-spacing: 2.8px
+    text-align: center
+  &-content
+    display: flex
+    align-items: center
+    justify-content: center
+    margin: 0 5%
+    position: relative
+    border: 1px
+    color: #ffffff
+    background: #ffffff
+    background-clip: padding-box
+    border: solid 1px transparent
+    border-radius: 5px
+    &:before 
+      content: ''
+      position: absolute
+      top: 0
+      right: 0
+      bottom: 0
+      left: 0
+      z-index: -1
+      margin: -1px
+      border-radius: inherit
+      background: linear-gradient(to bottom, transparent, #656da1)
+    &__box
+      width: 100%
+      &_text
+        padding: 60px 0 100px
+        color: #1b2562
+        font-family: "Bebas Regular"
+        font-size: 20px
+        letter-spacing: 4px
+        text-align: center
+        font-weight: 700
+        margin: 0 24%
+        line-height: 1.3
+      &_expo
+        display: flex
+        justify-content: space-around
+        align-items: flex-start
+        flex-wrap: wrap
+        flex-direction: row
+        width: 100%
+        // @media all and (-ms-high-contrast: none), (-ms-high-contrast: active)
+        //   display: block
+        &-card
+          display: flex
+          flex-direction: column
+          padding: 0 1%
+          width: 20%
+          &-border
+            border-left: 0.5px solid rgba(#000000, 0.2)
+            border-right: 0.5px solid rgba(#000000, 0.2)
+          &-img
+            text-align: center
+            margin-bottom: 30px
+          &-about
+            color: #1b2562
+            font-family: "Gotham Pro Medium"
+            font-size: 16px
+            line-height: 21px
+            text-align: center
+      &_action
+        display: flex
+        align-items: center
+        justify-content: center
+        padding: 30px
+        padding-bottom: 70px
+        &-button
+        &-phone
+          padding: 50px 0 0 45px
+          font-family: "Bebas Bold"
+          font-size: 54px
+          letter-spacing: 2.8px
+          text-shadow: 0px 6px 10px rgba(#1B2562,0.5)
+          transition: 0.3s
+          a
+            color: #1b2562
+            transition: 0.3s
+            &:hover
+              color: #FB1D43
+          &:hover
+            text-shadow: 0px 6px 10px rgba(#FB1D43, 0.5)
+  &-extra
+    color: #FB1D43
+.bitrix-btn-more
+  margin-top: 45px
+  background: linear-gradient(180deg, rgba(254,84,113,1) 0%, rgba(251,29,67,1) 35%)
+  border-top: 1px solid transparent
+  box-shadow: 0px 3px 0 #7b061a, 0 5px 49px rgba(198, 5, 37, 0.8)
+  letter-spacing: 1.44px
+  font-family: "Bebas Regular"
+  color: #ffffff
+  font-weight: 400
+  padding: 14px 50px
+  transition: 0.3s
+  border-radius: 3px
+  &:hover
+    background: linear-gradient(0deg, rgba(254,84,113,1) 0%, rgba(251,29,67,1) 35%)
+    border-top: 1px solid rgba(#7b061a, .05)
+    box-shadow: 0px 3px 0 rgba(254,84,113,1), 0 5px 35px rgba(#7b061a, 0.8)
+    text-decoration: none
+    text-shadow: -1px -1px 0px darken(#7b061a, 9.5%)
+
+
+

@@ -1,0 +1,64 @@
+@media (max-width: 1700px)
+  .problems
+    &-header
+    &-content
+      align-items: center
+@media (max-width: 1525px)
+  .problems
+    &-header
+    &-content
+      align-items: flex-end
+@media (max-width: 1199px)
+  .problems
+    background-position-x: -8%
+    &-header
+    &-content
+      &__list
+        &_box
+@media (max-width: 991px)
+  .problems
+    background-position-x: -12%
+    &-header
+      font-size: 40px
+    &-content
+      flex-direction: column
+      justify-content: center
+      align-items: center
+      &__list
+        padding-bottom: 120px
+        &_box
+          &-about
+            width: 280px
+            &-title
+            &-text
+      &__card
+@media (max-width: 767px)
+  .problems
+    background-position-x: -9%
+    &-header
+      font-size: 40px
+      text-align: center
+    &-content
+      flex-direction: column
+      justify-content: center
+      align-items: center
+      &__list
+        padding-bottom: 120px
+        &_box
+          &-about
+            justify-content: center
+            padding: 20px 0 0 0
+            width: 280px
+            &-title
+              padding-bottom: 10px
+            &-text
+      &__card
+        padding: 30px
+        width: 300px
+        height: 260px
+        margin-top: 0px
+        &:after
+          width: 310px
+          height: 270px
+          top: -5px
+          left: -5px

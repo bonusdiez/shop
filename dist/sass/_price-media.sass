@@ -1,0 +1,114 @@
+@media (max-width: 1299px)
+  .price
+    &-head
+      &__header
+        &:after
+          margin-left: 13%
+@media (max-width: 1199px)
+  .price
+    &:after
+      top: -5%
+    &-head
+      flex-direction: column
+      align-items: flex-start
+      &__header
+        &:after
+          display: none
+      &__text
+        margin-left: 0
+    &-table
+      &__inside
+        &_column
+          &-move
+          &-title
+            &-master
+          &-li
+            &-another
+              &:after
+                width: 97.5%
+@media (max-width: 991px)
+  .price
+    &-head
+      flex-direction: column
+      align-items: flex-start
+      &__header
+        font-size: 40px
+        &:after
+          display: none
+      &__text
+        font-size: 17px
+        margin-left: 0
+    &-table
+      &__inside
+        &_column
+          &-move
+          &-title
+            font-size: 17px
+            &-master
+              font-size: 17px
+          &-li
+            font-size: 17px
+            &-another
+              font-size: 14px
+              &:after
+                width: 96.5%
+                height: 55px
+            &-top
+              font-size: 17px
+          &-category
+            font-size: 15px
+          &-cost
+            font-size: 17px
+            &:hover
+            &-another
+            &-top
+
+@media (max-width: 767px)
+  .price
+    &:after
+      top: -6%
+      background-position-x: 150%
+      opacity: 0.2
+    &-head
+      flex-direction: column
+      align-items: center
+      &__header
+        width: 100%
+        font-size: 40px
+        padding: 0
+        margin: 0
+        text-align: center
+        &:after
+          display: none
+          padding: 0
+      &__text
+        width: 100%
+        font-size: 14px
+        margin-left: 0
+        text-align: center
+        padding: 0
+    &-table
+      overflow-x: scroll
+      &__inside
+        &_column
+          &-move
+          &-title
+            font-size: 14px
+            &-master
+              font-size: 14px
+          &-li
+            font-size: 14px
+            &-another
+              font-size: 14px
+              &:after
+                width: 96.5%
+                height: 55px
+            &-top
+              font-size: 14px
+          &-category
+            font-size: 14px
+          &-cost
+            font-size: 14px
+            &:hover
+            &-another
+            &-top

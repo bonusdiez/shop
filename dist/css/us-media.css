@@ -1,0 +1,91 @@
+@media (max-width: 1199px) {
+  .us {
+    padding: 160px 0 100px 0; }
+    .us-content__box_text {
+      margin: 0 14%; }
+    .us-content__box_expo-card {
+      padding: 0 5%; }
+    .us-content__box_action-phone {
+      font-size: 40px; } }
+
+@media (max-width: 991px) {
+  .us {
+    padding: 160px 0 100px 0; }
+    .us-header {
+      font-size: 40px; }
+    .us-content {
+      margin: 0; }
+      .us-content__box_text {
+        padding: 70px 5px;
+        font-size: 17px; }
+      .us-content__box_expo-card {
+        padding: 0 5%; }
+        .us-content__box_expo-card-img img {
+          width: 90px; }
+        .us-content__box_expo-card-about {
+          font-size: 14px; }
+      .us-content__box_action-phone {
+        font-size: 20px; } }
+
+@media (max-width: 767px) {
+  .us {
+    padding: 0px 0 100px 0; }
+    .us-content {
+      margin: 0 0%; }
+      .us-content__box_text {
+        margin: 0 5%; }
+  .bitrix-btn-more {
+    margin-top: 45px;
+    background: linear-gradient(180deg, #fe5471 0%, #fb1d43 35%);
+    color: #ffffff;
+    font-family: "Bebas Regular";
+    font-size: 18px;
+    font-weight: 400;
+    box-shadow: 0 5px 49px rgba(198, 5, 37, 0.8);
+    padding: 14px 14px;
+    letter-spacing: 1.44px;
+    border-radius: 3px;
+    border-bottom: 3px solid #7b061a;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    transition: 0.3s; }
+    .bitrix-btn-more:hover {
+      box-shadow: 0 5px 55px rgba(123, 6, 26, 0.8);
+      color: #ffffff;
+      background: linear-gradient(0deg, #fe5471 0%, #fb1d43 35%);
+      transition: 0.3s; } }
+
+@media (max-width: 500px) {
+  .us {
+    padding: 0px 0 100px 0; }
+    .us-header {
+      font-size: 40px; }
+    .us-content {
+      margin: 0; }
+      .us-content__box_text {
+        padding: 70px 5px;
+        font-size: 17px; }
+      .us-content__box_expo {
+        flex-direction: column;
+        align-items: center; }
+        .us-content__box_expo-card {
+          width: 70%;
+          padding: 0 5%; }
+          .us-content__box_expo-card-border {
+            border: none; }
+          .us-content__box_expo-card-img {
+            margin-bottom: 15px; }
+            .us-content__box_expo-card-img img {
+              width: 90px; }
+          .us-content__box_expo-card-about {
+            font-size: 14px;
+            margin-bottom: 40px; }
+      .us-content__box_action {
+        display: flex;
+        flex-direction: column;
+        align-items: center; }
+        .us-content__box_action-button {
+          padding: 0; }
+        .us-content__box_action-phone {
+          padding: 60px 0 0 0;
+          font-size: 30px; } }

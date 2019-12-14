@@ -1,0 +1,19 @@
+.slider-arrow {
+  position: absolute;
+  top: 0;
+  z-index: 99;
+  width: 22px;
+  height: 100%;
+  border: 1px solid #000; }
+  .slider-arrow:hover {
+    cursor: pointer; }
+  .slider-arrow_right {
+    right: 0;
+    background: #000 url(../img/feedback/feedback-arrow-right.png) center no-repeat; }
+    .slider-arrow_right:hover {
+      background: #FFDC38 url(../img/feedback/feedback-arrow-right_black.png) center no-repeat; }
+  .slider-arrow_left {
+    left: 0;
+    background: #000 url(../img/feedback/feedback-arrow-left.png) center no-repeat; }
+    .slider-arrow_left:hover {
+      background: #FFDC38 url(../img/feedback/feedback-arrow-left_black.png) center no-repeat; }

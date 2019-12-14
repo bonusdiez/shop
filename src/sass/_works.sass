@@ -1,0 +1,133 @@
+.works
+  padding-bottom: 70px
+  height: 100%
+  position: relative
+  z-index: 5
+  background: url('../img/works/works-bg.jpg') no-repeat center
+  background-size: cover
+  background-position-x: 0
+  &-header
+    padding: 130px 0 80px 0
+    color: #fb1d43
+    font-family: "Bebas Bold"
+    font-size: 56px
+    color: #ffffff
+    letter-spacing: 2.8px
+  &-content
+    position: relative
+    box-shadow: 0 13px 32px rgba(36, 46, 107, 0.63)
+    &:after
+      content: ''
+      position: absolute
+      bottom: -12px
+      left: 2%
+      width: 96%
+      height: 100%
+      border-radius: 8px
+      background-color: #ffffff
+      box-shadow: 0 13px 32px rgba(36, 46, 107, 0.63)
+      z-index: -2
+      transition: 0.3s
+  &-slider
+    display: flex
+    flex-direction: row
+    width: 100%
+    border-radius: 8px
+    background-color: #ffffff
+    padding: 18px
+    &__photo
+      width: 70%
+      img
+        width: 100%
+        object-fit: cover
+        height: 750px
+    &__about
+      width: 30%
+      padding-top: 122px
+      padding-left: 52px
+      &_title
+        color: #fb1d43
+        font-family: "Bebas Bold"
+        font-size: 34px
+        letter-spacing: 5.1px
+      &_text
+        width: 210px
+        padding-top: 23px
+        color: #1b2562
+        font-family: "Gotham Pro Medium"
+        font-size: 16px
+        line-height: 23px
+      &_button
+        padding-top: 70px
+        &-link
+          color: #fb1d43
+          font-family: "Bebas Bold"
+          font-size: 18px
+          letter-spacing: 1.44px
+          padding: 14px 40px
+          border-radius: 3px
+          border: 1px solid #fc3053
+          transition: 0.3s
+          &:hover
+            color: #11153C
+            border: 1px solid #11153C
+      &_arrow
+        padding-top: 70px
+        display: flex
+        &-left
+          img
+            cursor: pointer
+            &:hover
+              filter: hue-rotate(250deg) contrast(20) brightness(1)
+              opacity: 0.7
+        &-right
+          img
+            cursor: pointer
+            padding-left: 70px
+            &:hover
+              filter: hue-rotate(250deg) contrast(20) brightness(1)
+              opacity: 0.7
+  &-action
+    padding-top: 100px 
+    display: flex
+    justify-content: center
+    &__button1
+      a
+        margin-top: 70px
+        background: linear-gradient(180deg, rgba(254,84,113,1) 0%, rgba(251,29,67,1) 35%)
+        border-top: 1px solid transparent
+        box-shadow: 0px 3px 0 #7b061a, 0 5px 49px rgba(198, 5, 37, 0.8)
+        font-weight: 900
+        letter-spacing: 1.44px
+        font-family: "Bebas Regular"
+        color: #ffffff
+        font-weight: 400
+        padding: 14px 50px
+        transition: 0.3s
+        border-radius: 3px
+        &:hover
+          cursor: pointer
+          background: linear-gradient(0deg, rgba(254,84,113,1) 0%, rgba(251,29,67,1) 35%)
+          border-top: 1px solid rgba(#7b061a, .5)
+          box-shadow: 0px 3px 0 transparent, 0 5px 35px rgba(#7b061a, 0.8)
+          text-decoration: none
+          text-shadow: -1px -1px 0px darken(#7b061a, 9.5%)
+          padding: 14px 50px 14px 50px
+    &__button2
+      padding-left: 40px
+      a
+        color: #fb1d43
+        font-family: "Bebas Bold"
+        font-size: 18px
+        letter-spacing: 1.44px
+        padding: 14px 40px
+        border-radius: 3px
+        border: 1px solid #fc3053
+        transition: 0.3s
+        &:hover
+          color: #ffffff
+          border: 1px solid #ffffff
+.slick-initialized .slick-slide 
+  display: flex
+  box-shadow: 13px 13px 32px rgba(36, 46, 107, 0.63)
+
