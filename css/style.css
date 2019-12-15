@@ -32,6 +32,14 @@ body {
 .main-title {
   color: #8CC541; }
 
+.main-content__products {
+  display: flex; }
+  .main-content__products_card-img img {
+    width: 300px;
+    height: 300px;
+    -o-object-fit: cover;
+       object-fit: cover; }
+
 button {
   outline: none;
   border: none;
