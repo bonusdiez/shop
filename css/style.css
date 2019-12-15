@@ -7,9 +7,6 @@ body {
 .container {
   padding: 15px; }
 
-.headers-attention {
-  color: #fb1d43; }
-
 .header {
   color: #8CC541;
   font-family: "Gotham Pro Bold"; }
@@ -29,22 +26,13 @@ body {
     .header-content__contacts {
       text-align: right; }
       .header-content__contacts_phone a {
-        color: #8CC541; }
+        color: #8CC541;
+        text-decoration: none; }
+
+.main-title {
+  color: #8CC541; }
 
 button {
   outline: none;
   border: none;
   cursor: pointer; }
-
-.slick-slide {
-  outline: none; }
-
-.fancybox-is-open, .fancybox-bg {
-  background: #000000;
-  opacity: 1; }
-
-.fancybox-button {
-  background: transparent; }
-
-a {
-  text-decoration: none; }
