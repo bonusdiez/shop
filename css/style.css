@@ -29,6 +29,8 @@ a {
           list-style: none; }
     .header-content__contacts {
       text-align: right; }
+    .header-content__cart_img img {
+      width: 25px; }
 
 .main {
   color: #8CC541; }
