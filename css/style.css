@@ -60,3 +60,55 @@ button {
   outline: none;
   border: none;
   cursor: pointer; }
+
+/* 	Корзина  */
+
+.cart-wrapper{
+  position: fixed;
+  right: -300px;
+  top: 0;
+  width: 300px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border: 2px solid #8CC541;
+  font-family: "Gotham Pro Bold";
+  color: #8CC541;
+}
+
+.cart-wrapper-open{
+  right: 0;
+}
+
+.cart-products{
+  background-color: #fff;
+  height: 80%;
+  border-top: 2px solid #8CC541;
+  border-bottom: 2px solid #8CC541;
+}
+
+.cart-total{
+  font-weight: bold;
+  font-size: 1.4em;
+}
+
+.cart-close-btn{
+  color: #fff;
+  background: #8CC541;
+  font-size: 18px;
+
+}
+
+.cart-open-btn{
+  position: fixed;
+  top: 50px;
+  right: 50px;
+  background: #8CC541;
+  font-size: 18px;
+  width: 100px;
+  height: 40px;
+  color: #fff;
+}
+
+/* 	Корзина  */
