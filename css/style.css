@@ -75,6 +75,7 @@ button {
   border: 2px solid #8CC541;
   font-family: "Gotham Pro Bold";
   color: #8CC541;
+  transition: right ease-out 0.3s;
 }
 
 .cart-wrapper-open{
